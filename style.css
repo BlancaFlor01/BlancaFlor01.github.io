@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Dancing+Script:wght@400..700&family=Fjalla+One&family=Jersey+25+Charted&family=Playpen+Sans:wght@100..800&family=Ribeye&family=Shadows+Into+Light&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(220, 166, 86);
+    width: 100%;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    margin-right: 10px; 
+    margin-left: 10px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+nav a {
+    color: rgb(112, 72, 8); 
+    text-decoration: none; 
+    font-size: 30px; 
+}
+
+header ul{
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+
+
+
+p{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.video {
+    text-align: center;
+}
+
+
+.video video {
+    width: 600px; 
+    border: 15px solid rgb(238, 215, 132); 
+}
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: #8e9fea; 
+}
+footer p {
+    background-color: rgb(243, 220, 185);
+    font-size: 18px; 
+}
+
+.cursiva {
+        font-style: italic;
+        font-family: "Times New Roman", Times, serif; 
+    }
